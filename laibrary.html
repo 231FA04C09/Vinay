@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library Management System</title>
+</head>
+<body>
+	<center>
+    <h1 style="background-color:lightBlue;"> Library Management System </h1>
+
+    <h2>Add a New Book</h2>
+    <form action="#">
+        <label for="bookTitle">Book Title:</label><br>
+        <input type="text" id="bookTitle" name="bookTitle"><br><br>
+
+        <label for="bookAuthor">Book Author:</label><br>
+        <input type="text" id="bookAuthor" name="bookAuthor"><br><br>
+
+        <label for="bookISBN">Book ISBN:</label><br>
+        <input type="text" id="bookISBN" name="bookISBN"><br><br>
+
+        <label for="bookYear">Publication Year:</label><br>
+        <input type="text" id="bookYear" name="bookYear"><br><br>
+
+        <input type="submit" value="Add Book">
+    </form>
+
+    <h2>Available Books</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Book Title</th>
+                <th>Author</th>
+                <th>ISBN</th>
+                <th>Publication Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>The Great Gatsby</td>
+                <td>F. Scott Fitzgerald</td>
+                <td>9780743273565</td>
+                <td>1925</td>
+            </tr>
+            <tr>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>9780451524935</td>
+                <td>1949</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+</html>
